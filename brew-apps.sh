@@ -8,3 +8,4 @@ brew install nvm
 brew install openjdk
 brew install --cask signal
 brew install --cask rectangle
+brew install --cask alfred
