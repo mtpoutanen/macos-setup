@@ -7,3 +7,4 @@ brew install pyenv
 brew install nvm
 brew install openjdk
 brew install --cask signal
+brew install --cask rectangle
