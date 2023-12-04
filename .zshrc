@@ -178,7 +178,6 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlightin
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-eval "$(fasd --init auto)"
 
 chrome () {
     open -a "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
