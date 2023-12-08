@@ -106,9 +106,7 @@ load-nvmrc
 alias hgr="history | grep"
 alias studio="open -a /Applications/Android\ Studio.app"
 alias stree='open -a SourceTree'
-
-# Yonoton SSH tunnel commands
-alias mariadb_test_tunnel="ssh -L 3308:mariadbtest.cfhouuq82e5s.eu-west-1.rds.amazonaws.com:3306 -L 3309:mariadbtest-2019-02-14-02-30-snapped.cfhouuq82e5s.eu-west-1.rds.amazonaws.com:3306 ec2-user@ec2-34-254-158-53.eu-west-1.compute.amazonaws.com"
+alias venv='python -m venv'
 
 # Git aliases
 
