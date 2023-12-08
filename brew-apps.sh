@@ -12,3 +12,4 @@ brew install --cask alfred
 brew install --cask sublime-text
 brew install pyenv
 brew install pipx
+brew install --cask sourcetree
