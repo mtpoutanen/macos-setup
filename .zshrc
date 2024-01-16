@@ -67,7 +67,8 @@ export DYLD_LIBRARY_PATH="$HOME/lib"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git vi-mode zsh-nvm zsh-better-npm-completion)
+plugins=(git vi-mode zsh-nvm zsh-better-npm-completion z poetry virtualenv)
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -198,5 +199,11 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh
+"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+eval "$(direnv hook zsh)"
 
