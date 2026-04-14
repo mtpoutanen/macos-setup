@@ -1,3 +1,4 @@
+softwareupdate --all --install --force
 cd ~
 mkdir .ssh
 touch ~/.ssh/config
