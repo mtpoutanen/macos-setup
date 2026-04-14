@@ -1,6 +1,6 @@
 # Start by installing homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-"$(/opt/homebrew/bin/brew shellenv zsh)"
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 brew update
 brew upgrade
 brew install --cask iterm2
