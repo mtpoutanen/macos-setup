@@ -12,3 +12,5 @@ brew install --cask alfred
 brew install --cask sublime-text
 brew install pipx
 brew install --cask sourcetree
+brew install --cask docker-desktop
+brew install --cask firefox
