@@ -19,3 +19,4 @@ brew install pipx
 brew install --cask sourcetree
 brew install --cask docker-desktop
 brew install --cask firefox
+brew install direnv
